@@ -18,3 +18,6 @@ encoding <- | |-> etc
 encoding <- | |-> crypto 
       etc <-| |-> etc
 
+// Array = Slice
+Array = fixed lenght lost of things
+Slice = An array that can grow or shrink
