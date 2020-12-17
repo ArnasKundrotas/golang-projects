@@ -1,0 +1,20 @@
+go build -> *.exe etc
+go run -> run
+go fmt -> format code
+go install -> dependencies
+go get -> dependencies
+go test -> run test files
+
+executable files -> spits code -> doing something
+reuasable files -> helpers -> libs -> code dependancies
+
+executable package -> package main -> go build -> main.exe !important sacred others reusable packages
+
+import "package name" -> access in the import package "package name"
+
+encoding <- | |-> etc 
+   debug <- | |-> io
+    math <- main -> fmt
+encoding <- | |-> crypto 
+      etc <-| |-> etc
+
